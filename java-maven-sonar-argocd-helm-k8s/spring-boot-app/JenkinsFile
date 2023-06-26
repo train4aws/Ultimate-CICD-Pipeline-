@@ -47,7 +47,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "Ultimate-CICD-Pipeline"
+            GIT_REPO_NAME = "Ultimate-CICD-Pipeline-"
             GIT_USER_NAME = "fdjapi"
         }
         steps {
